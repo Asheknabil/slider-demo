@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+ 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ 
+html {
+  scroll-behavior: auto; /* Let GSAP control scroll behavior */
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+ 
+img {
+  display: block;
+  max-width: 100%;
+}
